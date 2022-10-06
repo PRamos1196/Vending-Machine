@@ -1,0 +1,100 @@
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: auto;
+}
+
+.column {
+    display: flex;
+    padding: 50px;
+}
+
+
+
+.line{
+    border-bottom: 2px solid black;
+}
+
+.menu-container {
+    padding: 20px;
+    align-content: flex-start | flex-end | center | space-between;
+}
+
+
+.food-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    content: "";
+    background: lightgrey;
+    padding: 2%;
+    margin: 5px;
+    height: 220px;
+    width: 200px;
+    text-align: center;
+}
+
+.button-container {
+    display: grid;
+    background: gray;
+    grid-template-columns: repeat(2, 10rem);
+}
+
+/* .food-item {
+    padding: 20px;
+} */
+
+h2{
+    text-align: center;
+}
+.money-message-box{
+    border: 2px solid black;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 15px;
+}
+
+.messages-message-box {
+    border: 2px solid black;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+.item-message-box {
+    border: 2px solid black;
+    padding: 5px;
+    width: 70%;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+.change-message-box {
+    border: 2px solid black;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.id-number{
+    text-align: left;
+    margin: 5px;
+}
